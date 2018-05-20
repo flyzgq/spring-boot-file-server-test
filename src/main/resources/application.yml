@@ -1,0 +1,13 @@
+# THYMELEAF
+server:
+  port: 8081
+spring:
+  thymeleaf:
+    encoding: UTF-8
+    mode: HTML
+    cache: false
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      file-size-threshold: 10MB
+debug: true
